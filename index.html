@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNO</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1>UNO</h1>
+    <h3>Directions: click a card with a matching suit or a matching number. you can also type the position if you prefer. click the next round button to allow your opponents to play!</h3>
+    <main class="game">
+        <h2>Current Card</h2>
+        <ul class = "current"></ul> 
+        <button id="drawBtn">Draw Card</button>
+        <input id ="input" type="text" placeholder="select the position of the card you want to play"/>
+        <button id = "submitBtn">Submit</button>
+        <button id = "nextRound">Start Next Round</button>
+        <ul class="hand"></ul>
+    </main>
+    <script src="js/card.js"></script>
+    <script src="js/hand.js"></script>
+    <script src="js/deck.js"></script>
+    <script src="js/game.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

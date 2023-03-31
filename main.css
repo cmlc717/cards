@@ -1,0 +1,100 @@
+body {
+  background-color: #F2F3F4;
+  font-family: monospace;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #F8C471;
+  font-size: 80px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 2px lightslategray;;
+}
+
+h3 {
+  margin-top: 10px;
+  color: lightsteelblue
+}
+
+.hand {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 1rem;
+}
+  
+.current {
+  list-style-type: none;
+}
+
+.cardBlock {
+  text-align: center;
+  padding: 35px;
+  padding-right: 45px;
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 40px;
+  box-shadow: 2px 2px 2px lightslategray;
+}
+
+.div {
+  width: 15rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 5%;
+  margin: 5px;
+  background-color: #F8C471;
+  font-family: monospace;
+  box-shadow: 2px 2px 2px lightslategray;
+}
+
+button:hover{
+  background-color: #F39C12;
+}
+
+#input {
+  width: 500px;
+  margin-top: 20px;
+  font-family: monospace;
+}
+
+#current {
+  margin: 0;
+  width: 150px;
+  height: 150px;
+  font-size: larger;
+  text-align: center;    
+  padding-top: 100px;
+  border: 1px solid black;
+  border-radius: 5%;
+  position: relative;
+  left: -20px;
+  box-shadow: 2px 2px 2px lightslategray;
+}
+
+#current:hover, .cardBlock:hover {
+  box-shadow: 2px 2px 5px lightslategray;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+#nextRound {
+  margin: 20px;
+}
+
+p {
+  font-size: x-small;
+  white-space: nowrap;
+}
